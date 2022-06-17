@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "enrollmentSystem", "enrollmentSystem\enrollmentSystem.vbproj", "{7B8C2032-4495-4B4D-ACB2-01A3AE5D1CFA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7B8C2032-4495-4B4D-ACB2-01A3AE5D1CFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B8C2032-4495-4B4D-ACB2-01A3AE5D1CFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B8C2032-4495-4B4D-ACB2-01A3AE5D1CFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B8C2032-4495-4B4D-ACB2-01A3AE5D1CFA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
