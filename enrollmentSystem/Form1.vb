@@ -10,4 +10,10 @@
         a.Show()
         Me.Close()
     End Sub
+
+    Private Sub Label7_Click(sender As Object, e As EventArgs) Handles Label7.Click
+        Dim a As New frmUser
+        a.Show()
+        Me.Close()
+    End Sub
 End Class

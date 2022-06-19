@@ -97,4 +97,10 @@ Public Class Form3
         a.Show()
         Me.Close()
     End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+        Dim a As New Form1
+        a.Show()
+        Me.Close()
+    End Sub
 End Class

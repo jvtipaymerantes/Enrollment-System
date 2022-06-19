@@ -124,7 +124,7 @@ Public Class Form4
         Dim sql As String
         Dim name As New System.Text.StringBuilder
 
-        sql = "select * from tblStudent where studentNumber LIKE '%" + txtSearch.Text + "%' OR lname LIKE '%" + txtSearch.Text + "%'"
+        sql = "select * from tblStudent where studentNumber LIKE '%" + txtSearch.Text + "%' OR fname LIKE '%" + txtSearch.Text + "%' OR lname LIKE '%" + txtSearch.Text + "%'"
         Dim cmdReader As New OleDbCommand(sql, con)
         Dim myreader As OleDbDataReader
         myreader = cmdReader.ExecuteReader()
@@ -199,7 +199,7 @@ Public Class Form4
         Dim sql As String
         Dim name As New System.Text.StringBuilder
 
-        sql = "select * from tblStudent where studentNumber LIKE '%" + txtSearch.Text + "%' OR lname LIKE '%" + txtSearch.Text + "%'"
+        sql = "select * from tblStudent where studentNumber LIKE '%" + txtSearch.Text + "%' OR fname LIKE '%" + txtSearch.Text + "%' OR lname LIKE '%" + txtSearch.Text + "%' "
         Dim cmdReader As New OleDbCommand(sql, con)
         Dim myreader As OleDbDataReader
         myreader = cmdReader.ExecuteReader()
@@ -264,6 +264,12 @@ Public Class Form4
 
     Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click
         Dim a As New Form5
+        a.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+        Dim a As New Form1
         a.Show()
         Me.Close()
     End Sub

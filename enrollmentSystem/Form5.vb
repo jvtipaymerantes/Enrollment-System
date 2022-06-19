@@ -33,20 +33,6 @@ Public Class Form5
         Label3.BackColor = Color.White
     End Sub
 
-    Private Sub RectangleShape4_MouseEnter(sender As Object, e As EventArgs) Handles RectangleShape4.MouseEnter
-        RectangleShape4.BackColor = Color.FromArgb(227, 227, 227)
-        RectangleShape4.BorderColor = Color.FromArgb(227, 227, 227)
-        PictureBox5.BackColor = Color.FromArgb(227, 227, 227)
-        Label4.BackColor = Color.FromArgb(227, 227, 227)
-    End Sub
-
-    Private Sub RectangleShape4_MouseLeave(sender As Object, e As EventArgs) Handles RectangleShape4.MouseLeave
-        RectangleShape4.BackColor = Color.White
-        RectangleShape4.BorderColor = Color.White
-        PictureBox5.BackColor = Color.White
-        Label4.BackColor = Color.White
-    End Sub
-
     Private Sub RectangleShape5_MouseEnter(sender As Object, e As EventArgs) Handles RectangleShape5.MouseEnter
         RectangleShape5.BackColor = Color.FromArgb(227, 227, 227)
         RectangleShape5.BorderColor = Color.FromArgb(227, 227, 227)
@@ -74,4 +60,30 @@ Public Class Form5
         Me.Close()
     End Sub
 
+
+    Private Sub RectangleShape1_MouseLeave(sender As Object, e As EventArgs) Handles RectangleShape1.MouseLeave
+        RectangleShape1.BackColor = Color.White
+        RectangleShape1.BorderColor = Color.White
+        PictureBox1.BackColor = Color.White
+        Label1.BackColor = Color.White
+    End Sub
+
+    Private Sub RectangleShape1_MouseEnter(sender As Object, e As EventArgs) Handles RectangleShape1.MouseEnter
+        RectangleShape1.BackColor = Color.FromArgb(227, 227, 227)
+        RectangleShape1.BorderColor = Color.FromArgb(227, 227, 227)
+        PictureBox1.BackColor = Color.FromArgb(227, 227, 227)
+        Label1.BackColor = Color.FromArgb(227, 227, 227)
+    End Sub
+
+    Private Sub Label6_Click(sender As Object, e As EventArgs) Handles Label6.Click
+        Dim a As New Form1
+        a.Show()
+        Me.Close()
+    End Sub
+
+    Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
+        Dim a As New Form3
+        a.Show()
+        Me.Close()
+    End Sub
 End Class

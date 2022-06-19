@@ -40,6 +40,7 @@ Partial Class ucLogs
         '
         Me.ucName.BackColor = System.Drawing.Color.White
         Me.ucName.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ucName.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ucName.Enabled = False
         Me.ucName.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ucName.Location = New System.Drawing.Point(204, 15)
@@ -53,6 +54,7 @@ Partial Class ucLogs
         '
         Me.ucSn.BackColor = System.Drawing.Color.White
         Me.ucSn.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ucSn.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ucSn.Enabled = False
         Me.ucSn.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ucSn.Location = New System.Drawing.Point(13, 15)
@@ -65,6 +67,7 @@ Partial Class ucLogs
         '
         Me.ucCourse.BackColor = System.Drawing.Color.White
         Me.ucCourse.BorderStyle = System.Windows.Forms.BorderStyle.None
+        Me.ucCourse.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ucCourse.Enabled = False
         Me.ucCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.ucCourse.Location = New System.Drawing.Point(547, 15)
@@ -83,6 +86,7 @@ Partial Class ucLogs
         Me.Controls.Add(Me.ucSn)
         Me.Controls.Add(Me.ucName)
         Me.Controls.Add(Me.Panel1)
+        Me.Cursor = System.Windows.Forms.Cursors.Hand
         Me.ForeColor = System.Drawing.Color.White
         Me.Name = "ucLogs"
         Me.Size = New System.Drawing.Size(820, 45)

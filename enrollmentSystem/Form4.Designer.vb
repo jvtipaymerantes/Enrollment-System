@@ -422,8 +422,8 @@ Partial Class Form4
         Me.LineShape1.Name = "LineShape1"
         Me.LineShape1.X1 = 193
         Me.LineShape1.X2 = 717
-        Me.LineShape1.Y1 = 139
-        Me.LineShape1.Y2 = 139
+        Me.LineShape1.Y1 = 138
+        Me.LineShape1.Y2 = 138
         '
         'RectangleShape8
         '
@@ -511,7 +511,7 @@ Partial Class Form4
         '
         Me.txtSearch.BorderStyle = System.Windows.Forms.BorderStyle.None
         Me.txtSearch.Font = New System.Drawing.Font("Microsoft Sans Serif", 9.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtSearch.Location = New System.Drawing.Point(218, 122)
+        Me.txtSearch.Location = New System.Drawing.Point(218, 121)
         Me.txtSearch.Name = "txtSearch"
         Me.txtSearch.Size = New System.Drawing.Size(500, 14)
         Me.txtSearch.TabIndex = 10
@@ -524,7 +524,7 @@ Partial Class Form4
         Me.Label8.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label8.Font = New System.Drawing.Font("Montserrat Medium", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label8.ForeColor = System.Drawing.Color.DimGray
-        Me.Label8.Location = New System.Drawing.Point(212, 202)
+        Me.Label8.Location = New System.Drawing.Point(212, 206)
         Me.Label8.Name = "Label8"
         Me.Label8.Size = New System.Drawing.Size(124, 16)
         Me.Label8.TabIndex = 11
@@ -537,7 +537,7 @@ Partial Class Form4
         Me.Label9.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label9.Font = New System.Drawing.Font("Montserrat Medium", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label9.ForeColor = System.Drawing.Color.DimGray
-        Me.Label9.Location = New System.Drawing.Point(551, 202)
+        Me.Label9.Location = New System.Drawing.Point(551, 206)
         Me.Label9.Name = "Label9"
         Me.Label9.Size = New System.Drawing.Size(49, 16)
         Me.Label9.TabIndex = 12
@@ -550,7 +550,7 @@ Partial Class Form4
         Me.Label10.Cursor = System.Windows.Forms.Cursors.Hand
         Me.Label10.Font = New System.Drawing.Font("Montserrat Medium", 8.999999!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Label10.ForeColor = System.Drawing.Color.DimGray
-        Me.Label10.Location = New System.Drawing.Point(959, 200)
+        Me.Label10.Location = New System.Drawing.Point(957, 204)
         Me.Label10.Name = "Label10"
         Me.Label10.Size = New System.Drawing.Size(57, 16)
         Me.Label10.TabIndex = 13
