@@ -13,7 +13,13 @@
         If (txtFname.Text = "" Or txtLname.Text = "" Or txtMname.Text = "" Or txtAddress.Text = "" Or txtContact.Text = "" Or cmbCourse.Text = "" Or ComboBox1.Text = "" Or ComboBox2.Text = "" Or ComboBox3.Text = "") Then
             MsgBox("Error")
         Else
-            MsgBox("INSERTED")
+
+            createData()
+
+            Dim a As New Form3
+            a.Show()
+            Me.Close()
+
         End If
 
     End Sub
@@ -52,6 +58,12 @@
 
         con.Close()
 
+    End Sub
+
+    Private Sub PictureBox3_Click(sender As Object, e As EventArgs) Handles PictureBox3.Click
+        Dim a As New Form3
+        a.Show()
+        Me.Close()
     End Sub
 
 End Class
