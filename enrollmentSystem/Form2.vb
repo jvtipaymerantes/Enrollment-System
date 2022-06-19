@@ -1,11 +1,34 @@
-﻿Public Class Form2
+﻿Imports System.IO
+Imports System.Data.OleDb
+
+Public Class Form2
 
     Dim con As New OleDb.OleDbConnection("Provider=Microsoft.ACE.OLEDB.12.0;Data Source=enrollment.accdb")
 
 
     Private Sub Form2_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-        
 
+        Dim sn As String
+
+        con.Open()
+
+        Dim strsql As String
+        strsql = "Select Count(*) from tblStudent"
+        Dim cmd As New OleDbCommand(strsql, con)
+
+        Dim vaccantCount As Int32 = 0
+        vaccantCount = Convert.ToInt32(cmd.ExecuteScalar())
+        sn = vaccantCount.ToString
+
+        Dim year As String = String.Format("{0:yyyy}", DateTime.Now)
+
+        Dim snFinal As New System.Text.StringBuilder
+        snFinal.Append(year.ToString())
+        snFinal.Append(sn.ToString())
+
+        txtStudentNumber.Text = snFinal.ToString()
+
+        con.Close()
     End Sub
 
     Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click

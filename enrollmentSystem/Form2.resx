@@ -22506,30 +22506,6 @@
   <metadata name="LineShape3.Size" type="System.Drawing.Size, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>231, 0</value>
   </metadata>
-  <data name="PictureBox1.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-    <value>
-        iVBORw0KGgoAAAANSUhEUgAAAGQAAABkCAYAAABw4pVUAAAABGdBTUEAALGPC/xhBQAABFJJREFUeF7t
-        nTnIHVUYhv+oURIkUdJpk95gMLgULiguiCBWWljELZBGUCsLEVxQiCIouCO44ooWUZuUQYwaUgbBRrRQ
-        ccU9iUt8XnBgGL5z5szM/S9H533gaS535ofv/c85c+be+e6KMcYYY4wxxhhjjDHmP8+xeBHejy/gHnwT
-        H8Hr8WQ0S2AD3oNf4dGMh/EtPB3NKnEdfo1RACn/wufwRDQL4jh8CqOCl3oQN6OZiNaKlzEq8lA/x1PR
-        jGQtaqGOijtWjZSNaAaikfEKRkVt+yO+hg/gE/gJRu9r+ySaAZSE8Qfei9FifTl+jNFx8k88DU0BJWH8
-        gNqD5DgJ92J0vNRUaHooDeNsLGETforReQ6h9jQmgS5t+8LQZu8cHMIVGJ1LXosm4AR8B6OidX0a1+AQ
-        UuvJLjQdSkZG16GhPIPReV5C02JMGI0PYikPYXSO3Wj+pSSMv4PX2up2SslISW0udbyBkjB0NXUz/tZ6
-        LbIvFO1TfsLo2Dtx9pSG0VzaXopTQrkbo2PkeThrhobRUBKKbod0Q9Fx2tFH79fnKcfgbBkbRkNJKA9j
-        E8q5mJqqpG67zJaSfcY3uBVzXIYloVyCv7Ze6/oZrsNZMnVkdFEov2N0nkbt6KPXpa7crsZZsqiR0aUk
-        lJR34CwpHRln4RiuwtxIiHweS/Yt/ztWa2R0GTJSHkOHkXARYTTcjtHfaOswMi4yjIsxdzUlH0eHkdBh
-        LAmHUREK412MitLoMJaEw6gIh1ERDqMiHEZF1BiGvj7qMBI6jCWx7DD6Ps+QDiPjosPo+xDKYWR0GEvC
-        YVSEw6gIh1ERDqMiagwj+vLbLHAYFeEwKsJhVESNYagnySy/AO0wKsJhVITDqAiHUREOoyJKwvgWHcaS
-        eBajorTVp3P34dSnis7HnzH6G42voh5VmCVqAKYmK1FhItVr6kIcg0dGAZqGosLk1CNfd+GQ3fIF2Dcy
-        1GRstiOj4UaMilOibmGUFNBhDEAPqkQFSj273VVfQMvhMAbyEUZFUueDW/HL1mspb8MIrxkDyS3omsqE
-        unNqaso1eVEjYl09tSkJQw9YOowWZ2BUKNndc+iJ1lyB1SavaTZZGoba9ZkWOzAqlooZzelqXZG7RFb3
-        NYcxAX05ICrYPkxxDWqKio5TWH2PIDuMDKkF/VHMoV4h0XF9OowMx2Nq+rkBc6h16hcYHZvSYfSQ26GX
-        3ES8BaNjI19H7zN6SO3QtSDrcjhC/+FbcDtqQ6h23NE52r6BDqOA1IL+Por1qPZ2Ggn6uSD9YkDp7r3R
-        09QAPsSoiNpPfIBjWxs1emQMQFPS1ILnVBipac8E5HboU9X05mlqIDdhVMwpHsEX0SNjBLpCiopaqop/
-        ANVffSeeidrXmJHsx6jQkb/ge6gfY9Tlrn51xlPSAtF/cqoP4ff4Nurj2SvxFDSrTLOgf4cufgXoN/q2
-        oRdfY4wxxhhjjDHGGLNcVlb+AaS9mMQ9jCu1AAAAAElFTkSuQmCC
-</value>
-  </data>
   <metadata name="LineShape4.Bounds" type="System.Drawing.Rectangle, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>112, 38, 132, 0</value>
   </metadata>
