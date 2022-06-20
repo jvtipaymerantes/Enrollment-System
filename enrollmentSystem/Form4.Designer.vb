@@ -489,7 +489,7 @@ Partial Class Form4
         'ComboBox1
         '
         Me.ComboBox1.FormattingEnabled = True
-        Me.ComboBox1.Items.AddRange(New Object() {"Bachelor of Science in Computer Science", "Bachelor of Education Major in English", "Bachelor of Education Major in History", "Bachelor of Science in Business Administration"})
+        Me.ComboBox1.Items.AddRange(New Object() {"ALL", "Bachelor of Science in Computer Science", "Bachelor of Education Major in English", "Bachelor of Education Major in History", "Bachelor of Science in Business Administration"})
         Me.ComboBox1.Location = New System.Drawing.Point(793, 118)
         Me.ComboBox1.Name = "ComboBox1"
         Me.ComboBox1.RightToLeft = System.Windows.Forms.RightToLeft.No

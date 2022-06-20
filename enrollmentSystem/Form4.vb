@@ -9,7 +9,6 @@ Public Class Form4
 
         con.Open()
 
-
         Dim sql As String
         Dim name As New System.Text.StringBuilder
 
@@ -228,38 +227,79 @@ Public Class Form4
 
 
     Private Sub ComboBox1_TextChanged(sender As Object, e As EventArgs) Handles ComboBox1.TextChanged
-        FlowLayoutPanel1.Controls.Clear()
+        If ComboBox1.Text = "ALL" Then
 
-        con.Open()
+            FlowLayoutPanel1.Controls.Clear()
 
-        Dim sql As String
-        Dim name As New System.Text.StringBuilder
+            con.Open()
 
-        sql = "select * from tblStudent where course='" + ComboBox1.Text +"'"
-        Dim cmdReader As New OleDbCommand(sql, con)
-        Dim myreader As OleDbDataReader
-        myreader = cmdReader.ExecuteReader()
+            Dim sql As String
+            Dim name As New System.Text.StringBuilder
 
-        While (myreader.Read())
 
-            name.Append(myreader("fname").ToString())
-            name.Append(" ")
-            name.Append(myreader("mname").ToString())
-            name.Append(" ")
-            name.Append(myreader("lname").ToString())
+            sql = "Select studentNumber, fname, mname, lname, course from tblStudent"
+            Dim cmdReader As New OleDbCommand(sql, con)
+            Dim myreader As OleDbDataReader
+            myreader = cmdReader.ExecuteReader()
 
-            Dim uc As New ucLogs
-            uc.ucSn.Text = myreader("studentNumber")
-            uc.ucName.Text = name.ToString()
-            uc.ucCourse.Text = myreader("course")
+            While (myreader.Read())
 
-            Me.FlowLayoutPanel1.Controls.Add(uc)
+                name.Append(myreader("fname").ToString())
+                name.Append(" ")
+                name.Append(myreader("mname").ToString())
+                name.Append(" ")
+                name.Append(myreader("lname").ToString())
 
-            name.Clear()
+                Dim uc As New ucLogs
+                uc.ucSn.Text = myreader("studentNumber")
+                uc.ucName.Text = name.ToString()
+                uc.ucCourse.Text = myreader("course")
 
-        End While
+                Me.FlowLayoutPanel1.Controls.Add(uc)
 
-        con.Close()
+                name.Clear()
+
+            End While
+
+            con.Close()
+
+        Else
+
+            FlowLayoutPanel1.Controls.Clear()
+
+            con.Open()
+
+            Dim sql As String
+            Dim name As New System.Text.StringBuilder
+
+            sql = "select * from tblStudent where course='" + ComboBox1.Text + "'"
+            Dim cmdReader As New OleDbCommand(sql, con)
+            Dim myreader As OleDbDataReader
+            myreader = cmdReader.ExecuteReader()
+
+            While (myreader.Read())
+
+                name.Append(myreader("fname").ToString())
+                name.Append(" ")
+                name.Append(myreader("mname").ToString())
+                name.Append(" ")
+                name.Append(myreader("lname").ToString())
+
+                Dim uc As New ucLogs
+                uc.ucSn.Text = myreader("studentNumber")
+                uc.ucName.Text = name.ToString()
+                uc.ucCourse.Text = myreader("course")
+
+                Me.FlowLayoutPanel1.Controls.Add(uc)
+
+                name.Clear()
+
+            End While
+
+            con.Close()
+
+        End If
+        
     End Sub
 
     Private Sub Label4_Click(sender As Object, e As EventArgs) Handles Label4.Click

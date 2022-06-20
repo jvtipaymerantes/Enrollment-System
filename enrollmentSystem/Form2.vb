@@ -18,7 +18,7 @@ Public Class Form2
 
         Dim vaccantCount As Int32 = 0
         vaccantCount = Convert.ToInt32(cmd.ExecuteScalar())
-        sn = vaccantCount.ToString
+        sn = vaccantCount.ToString + 1
 
         Dim year As String = String.Format("{0:yyyy}", DateTime.Now)
 
@@ -29,6 +29,7 @@ Public Class Form2
         txtStudentNumber.Text = snFinal.ToString()
 
         con.Close()
+
     End Sub
 
     Private Sub Label11_Click(sender As Object, e As EventArgs) Handles Label11.Click
